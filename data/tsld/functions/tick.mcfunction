@@ -11,5 +11,5 @@ scoreboard players operation @a days_death = @a hrs_death
 scoreboard players operation @a days_death /= 24 constants
 
 
-scoreboard players operation @a mcdays_death = @a hrs_death
+scoreboard players operation @a mcdays_death = @a mins_death
 scoreboard players operation @a mcdays_death /= 24 constants
