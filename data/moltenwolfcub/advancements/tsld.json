@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {
+            "text": "Time Since Last Death",
+            "bold": true,
+            "italic": true,
+            "color": "gold"
+        },
+        "description":{
+            "text": "Adds scoreboards that show the formatted time since you last died",
+            "italic": true,
+            "color": "green"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "moltenwolfcub:root",
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}
